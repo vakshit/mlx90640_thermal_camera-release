@@ -1,0 +1,12 @@
+Source: ros-noetic-mlx90640-thermal-camera
+Section: misc
+Priority: optional
+Maintainer: Adit Jain <jadit19@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-cv-bridge, ros-noetic-roscpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-mlx90640-thermal-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-cv-bridge, ros-noetic-roscpp
+Description: The mlx90640_thermal_camera package
